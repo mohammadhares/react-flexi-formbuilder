@@ -118,10 +118,11 @@ The `FormBuilder` component accepts the following props:
 
 ## Customizing the Styles
 
-To apply custom styles to your form, you can simply include the `flexi-form-builder.css` file in your project:
+To apply custom styles to your form, you can simply include the `index.css` file in your project:
 
 ```javascript
-import 'react-flexi-formbuilder/dist/flexi-form-builder.css';
+import 'react-flexi-formbuilder/dist/index.css'; 
+;
 ```
 
 Alternatively, you can override the styles by adding custom CSS in your project.
