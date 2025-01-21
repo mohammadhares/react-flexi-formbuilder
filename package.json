@@ -1,0 +1,40 @@
+{
+  "name": "react-flexi-formbuilder",
+  "version": "1.1.0",
+  "description": "A flexible form builder for React projects",
+  "main": "dist/react-flexi-formbuilder.cjs.js",
+  "module": "dist/react-flexi-formbuilder.es.js",
+  "types": "dist/types/index.d.ts",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && tsc",
+    "test": "echo \"No tests yet\"",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "react",
+    "form-builder",
+    "form",
+    "builder"
+  ],
+  "author": "Haris Muhammadi",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.7",
+    "@types/react": "^19.0.7",
+    "@types/react-dom": "^19.0.3",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "^5.7.3",
+    "vite": "^6.0.7"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.7.2",
+    "@fortawesome/free-solid-svg-icons": "^6.7.2",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "sass": "^1.83.4"
+  }
+}
